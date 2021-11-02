@@ -32,7 +32,7 @@
                 <h5>La tua lista delle cose da fare</h5>
                 <!-- Single task -->
                 <div class="list-group-item d-flex align-items-center" v-for="element, i in toDoList">
-                    <label class="flex-fill">{{element}}</label>
+                    <label class="flex-fill">{{i}} - {{element}}</label>
                     <button type="button" class="btn-close" @click="deleteTask(i)"></button>
                 </div>
             </div>
