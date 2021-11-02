@@ -1,0 +1,15 @@
+.input-group, .list-group {
+    width: 45%;
+    margin: auto;
+}
+
+#add-btn {
+    font-weight: 600;
+}
+
+h5 {
+    text-align: center;
+    color: brown;
+    padding: 5px;
+    border: 1px solid;
+}
